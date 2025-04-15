@@ -214,6 +214,7 @@ a {
 
 /* Main */
 .main {
+    padding-bottom: 80px;
     height: calc(100vh - 74px);
     overflow: auto;
     grid-area: main;
