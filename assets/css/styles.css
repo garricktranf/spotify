@@ -16,6 +16,10 @@ body {
 }
 
 /* common */
+a {
+    text-decoration: none;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 2);
@@ -76,13 +80,14 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    width: 546px;
     gap: 8px;
 }
 
 [type="search"] {
     background-color: #2a2a2a;
     color: #b3b3b3;
-    width: 475px;
+    flex: 1;
     height: 50px;
     border-radius: 999px;
     border: none;
@@ -339,14 +344,70 @@ body {
     margin-top: 13px;
 }
 
-
-
-
-
-
-
-
-
+/* queue */
 .queue {
     grid-area: queue;
+    background-color: var(--primary-color);
+    padding: 14px 16px;
+}
+
+.queue .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.queue .title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.queue .title-mt {
+    margin-top: 40px;
+}
+
+.queue .but {
+    width: 33px;
+    height: 33px;
+    line-height: 39px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.queue .but:hover {
+    background-color: #b3b3b380;
+    cursor: pointer;
+}
+
+.queue .song {
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+
+.queue .song:hover {
+    background-color: #dddddd80;
+}
+
+.queue .song-img {
+
+    width: 48px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.queue .song-title {
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+.queue .song-title a {
+    color: #fff;
+}
+
+.queue .singer a {
+    font-size: 1.4rem;
+    color: #b3b3b3;
 }
