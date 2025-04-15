@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotif*ck</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./assets/fonts/stylesheets.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo"><img class="logo-img" src="./assets/imgs/logo.png" alt="spotify"></div>
+                <div class="center-block">
+                    <button class="but">
+                        <img src="./assets/icons/home.svg" alt="" class="home-img">
+                    </button>
+                    <div class="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28" height="28" viewBox="0,0,256,256">
+                            <g fill="#757575" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                <g transform="scale(5.12,5.12)">
+                                    <path
+                                        d="M21,3c-9.39844,0 -17,7.60156 -17,17c0,9.39844 7.60156,17 17,17c3.35547,0 6.46094,-0.98437 9.09375,-2.65625l12.28125,12.28125l4.25,-4.25l-12.125,-12.09375c2.17969,-2.85937 3.5,-6.40234 3.5,-10.28125c0,-9.39844 -7.60156,-17 -17,-17zM21,7c7.19922,0 13,5.80078 13,13c0,7.19922 -5.80078,13 -13,13c-7.19922,0 -13,-5.80078 -13,-13c0,-7.19922 5.80078,-13 13,-13z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <input type="search" placeholder="What do you want to play?">
+                </div>
+                <div class="right-block">
+                    <button class="but">
+                        <img src="./assets/icons/bell.svg" alt="" class="bell-img">
+                    </button>
+                    <span>T</span>
+                </div>
+            </nav>
+        </header>
+        <aside class="library">
+            <button class="but">
+                <svg fill="#C3C3C3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="15px" viewBox="0 0 45.402 45.402"
+                    xml:space="preserve">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g>
+                            <path
+                                d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141 c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27 c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435 c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+            <div class="playlist-group">
+                <button class="playlist">
+                    <img src="./assets/imgs/playlist-img-1.jpg" alt="">
+                </button>
+                <button class="playlist">
+                    <img src="./assets/imgs/playlist-img-2.jpg" alt="">
+                </button>
+                <button class="playlist">
+                    <img src="./assets/imgs/playlist-img-3.jpg" alt="">
+                </button>
+                <button class="playlist">
+                    <img src="./assets/imgs/playlist-img-4.jpg" alt="">
+                </button>
+
+            </div>
+        </aside>
+        <main class="main">
+            <div class="content content-gradient">
+                <div class="menu">
+                    <button class="but active">All</button>
+                    <button class="but">Music</button>
+                    <button class="but">Podcasts</button>
+                </div>
+                <ul class="album">
+                    <li class="item">
+                        <img src="./assets/imgs/album-1.jpg" alt="" class="album-img">
+                        <h3 class="album-title">Anh Núi</h3>
+                    </li>
+                    <li class="item">
+                        <img src="./assets/imgs/album-2.jpg" alt="" class="album-img">
+                        <h3 class="album-title">Anh Quỳnh</h3>
+                    </li>
+                    <li class="item">
+                        <img src="./assets/imgs/album-3.jpg" alt="" class="album-img">
+                        <h3 class="album-title">Chây Chín Bẩy</h3>
+                    </li>
+                    <li class="item">
+                        <img src="./assets/imgs/album-4.jpg" alt="" class="album-img">
+                        <h3 class="album-title">Thúy Loan</h3>
+                    </li>
+                    <li class="item">
+                        <img src="./assets/imgs/album-5.jpg" alt="" class="album-img">
+                        <h3 class="album-title">IU</h3>
+                    </li>
+                    <li class="item">
+                        <img src="./assets/imgs/album-6.jpg" alt="" class="album-img">
+                        <h3 class="album-title">Đờm Cụt</h3>
+                    </li>
+                    <li class="item">
+                        <img src="./assets/imgs/album-7.jpg" alt="" class="album-img">
+                        <h3 class="album-title">Hương Tràm</h3>
+                    </li>
+                    <li class="item">
+                        <img src="./assets/imgs/album-8.jpg" alt="" class="album-img">
+                        <h3 class="album-title">Rhymastic</h3>
+                    </li>
+
+                </ul>
+            </div>
+            <section class="hit hit-personalized">
+                <div class="row">
+                    <h2 class="title">Made For You</h2>
+                    <button class="but">Show all</button>
+                </div>
+                <div class="list">
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-1.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-2.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-3.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-4.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-5.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="hit hit-bottom">
+                <div class="row">
+                    <h2 class="title">Today's biggest hits</h2>
+                    <button class="but">Show all</button>
+                </div>
+                <div class="list">
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-6.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-7.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-8.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-9.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-10.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-11.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-10.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="hit hit-bottom">
+                <div class="row">
+                    <h2 class="title">Your top mixes</h2>
+                    <button class="but">Show all</button>
+                </div>
+                <div class="list">
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-11.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-2.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-3.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-4.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                    <div class="hit-item">
+                        <img src="./assets/imgs/hit-5.jpg" alt="" class="hit-img">
+                        <p class="desc line-clamp">Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you. Updates every Monday.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <aside class="queue"></aside>
+        <section class="player"></section>
+    </div>
+</body>
+
+</html>
